@@ -25,10 +25,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWU-RA-lDf">
                                 <rect key="frame" x="111" y="177" width="98" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96200138329999996" green="0.76128977539999998" blue="0.2651857138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="vew-Qk-OZD"/>
+                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="1a6-n7-2hf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBZ-bO-ijk">
@@ -44,7 +45,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="NBZ-bO-ijk" id="NrG-n4-KB6"/>
+                        <outlet property="button" destination="cWU-RA-lDf" id="aAG-iY-Jyh"/>
+                        <outlet property="label" destination="NBZ-bO-ijk" id="5TL-xa-qqc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
