@@ -17,7 +17,7 @@
   ２．予想しているデータ型と異なるかもしれない というのを許容することができる  
   swiftでは変数にnilは入れられないけど，!をつけてたらOKになる
   
-## エラーが起きたところ，起きそうなところ（自分で間違えたりしたところ）の原因，解決法
+## エラーが起きたところの原因，解決法
 - label.textと打つところを.txtって間違えてて，Value of type 'UILabel?' has no member 'txt' のエラーが出た  
 - ＋ボタンを押していて数字が9を超えるとなぜか1になってしまう．これはlabelの範囲が狭くて2桁目の数字が切れて見えなくなっていた  
 - 実機をつないでRunしようとしたら，The run destination Rika SumitomoのiPhone is not valid for Running the scheme 'Count'のエラーが出た．
